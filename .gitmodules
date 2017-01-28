@@ -1,0 +1,9 @@
+[submodule "Frameworks/Kickstarter-ReactiveExtensions"]
+	path = Frameworks/Kickstarter-ReactiveExtensions
+	url = https://github.com/kickstarter/Kickstarter-ReactiveExtensions.git
+[submodule "Frameworks/Curry"]
+	path = Frameworks/Curry
+	url = https://github.com/thoughtbot/Curry.git
+[submodule "Frameworks/Argo"]
+	path = Frameworks/Argo
+	url = https://github.com/thoughtbot/Argo.git
