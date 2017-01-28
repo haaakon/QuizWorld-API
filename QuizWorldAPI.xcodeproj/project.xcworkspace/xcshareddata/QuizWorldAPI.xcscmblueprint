@@ -1,0 +1,43 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E084C86B03F81D63323C9E7510697EA528A758C7" : 9223372036854775807,
+    "E139BF47DAAF0281292F8A8A85F2631B9D6680F3" : 9223372036854775807,
+    "51B210D0D41486D3ADD6940D57E4480BBD4DE4C5" : 9223372036854775807,
+    "956D2B21DD155C49504BB67697A67F7C5351A353" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EF3776B8-0E7B-47F1-AF07-733B7F46A504",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E084C86B03F81D63323C9E7510697EA528A758C7" : "QuizWorldAPI\/QuizWorldAPI\/Frameworks\/Frameworks\/ReactiveSwift\/Carthage\/Checkouts\/xcconfigs\/",
+    "E139BF47DAAF0281292F8A8A85F2631B9D6680F3" : "Kickstarter-ReactiveExtensions\/",
+    "51B210D0D41486D3ADD6940D57E4480BBD4DE4C5" : "QuizWorldAPI\/QuizWorldAPI\/Frameworks\/Frameworks\/ReactiveSwift\/",
+    "956D2B21DD155C49504BB67697A67F7C5351A353" : "Kickstarter-ReactiveExtensions\/Frameworks\/ReactiveSwift\/Carthage\/Checkouts\/Result\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "QuizWorldAPI",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "QuizWorldAPI.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ReactiveCocoa\/ReactiveSwift",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "51B210D0D41486D3ADD6940D57E4480BBD4DE4C5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/antitypical\/Result.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "956D2B21DD155C49504BB67697A67F7C5351A353"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jspahrsummers\/xcconfigs.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E084C86B03F81D63323C9E7510697EA528A758C7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kickstarter\/Kickstarter-ReactiveExtensions",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E139BF47DAAF0281292F8A8A85F2631B9D6680F3"
+    }
+  ]
+}

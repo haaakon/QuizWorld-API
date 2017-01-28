@@ -13,6 +13,13 @@
 		EC1A67391E3CE2C0009E5934 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1A67381E3CE2C0009E5934 /* Assets.xcassets */; };
 		EC1A673C1E3CE2C0009E5934 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1A673A1E3CE2C0009E5934 /* LaunchScreen.storyboard */; };
 		EC1A67471E3CE2C0009E5934 /* QuizWorldAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1A67461E3CE2C0009E5934 /* QuizWorldAPITests.swift */; };
+		EC1A677B1E3CEACD009E5934 /* ServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1A677A1E3CEACD009E5934 /* ServiceType.swift */; };
+		EC1A677D1E3CEB37009E5934 /* ServerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1A677C1E3CEB37009E5934 /* ServerConfig.swift */; };
+		EC1A677F1E3CEC28009E5934 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1A677E1E3CEC28009E5934 /* Service.swift */; };
+		EC1A67851E3CF059009E5934 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1A67841E3CF059009E5934 /* Route.swift */; };
+		EC2E927B1E3CFD0700E089D5 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1A67801E3CEC77009E5934 /* Question.swift */; };
+		EC2E927C1E3CFD0700E089D5 /* QuestionEnvelope.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1A67821E3CEC88009E5934 /* QuestionEnvelope.swift */; };
+		EC2E927F1E3CFDB000E089D5 /* ErrorEnvelope.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2E927D1E3CFD3A00E089D5 /* ErrorEnvelope.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +32,18 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		EC2E92731E3CFB8600E089D5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		EC1A672E1E3CE2C0009E5934 /* QuizWorldAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizWorldAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC1A67311E3CE2C0009E5934 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +55,13 @@
 		EC1A67421E3CE2C0009E5934 /* QuizWorldAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizWorldAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC1A67461E3CE2C0009E5934 /* QuizWorldAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizWorldAPITests.swift; sourceTree = "<group>"; };
 		EC1A67481E3CE2C0009E5934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1A677A1E3CEACD009E5934 /* ServiceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceType.swift; sourceTree = "<group>"; };
+		EC1A677C1E3CEB37009E5934 /* ServerConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerConfig.swift; sourceTree = "<group>"; };
+		EC1A677E1E3CEC28009E5934 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		EC1A67801E3CEC77009E5934 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		EC1A67821E3CEC88009E5934 /* QuestionEnvelope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionEnvelope.swift; sourceTree = "<group>"; };
+		EC1A67841E3CF059009E5934 /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		EC2E927D1E3CFD3A00E089D5 /* ErrorEnvelope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorEnvelope.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +105,10 @@
 			children = (
 				EC1A67311E3CE2C0009E5934 /* AppDelegate.swift */,
 				EC1A67331E3CE2C0009E5934 /* ViewController.swift */,
+				EC1A677E1E3CEC28009E5934 /* Service.swift */,
+				EC1A67841E3CF059009E5934 /* Route.swift */,
+				EC1A677A1E3CEACD009E5934 /* ServiceType.swift */,
+				EC1A677C1E3CEB37009E5934 /* ServerConfig.swift */,
 				EC1A67351E3CE2C0009E5934 /* Main.storyboard */,
 				EC1A67381E3CE2C0009E5934 /* Assets.xcassets */,
 				EC1A673A1E3CE2C0009E5934 /* LaunchScreen.storyboard */,
@@ -92,6 +122,9 @@
 			children = (
 				EC1A67461E3CE2C0009E5934 /* QuizWorldAPITests.swift */,
 				EC1A67481E3CE2C0009E5934 /* Info.plist */,
+				EC1A67801E3CEC77009E5934 /* Question.swift */,
+				EC2E927D1E3CFD3A00E089D5 /* ErrorEnvelope.swift */,
+				EC1A67821E3CEC88009E5934 /* QuestionEnvelope.swift */,
 			);
 			path = QuizWorldAPITests;
 			sourceTree = "<group>";
@@ -106,6 +139,7 @@
 				EC1A672A1E3CE2C0009E5934 /* Sources */,
 				EC1A672B1E3CE2C0009E5934 /* Frameworks */,
 				EC1A672C1E3CE2C0009E5934 /* Resources */,
+				EC2E92731E3CFB8600E089D5 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -201,8 +235,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC2E927F1E3CFDB000E089D5 /* ErrorEnvelope.swift in Sources */,
 				EC1A67341E3CE2C0009E5934 /* ViewController.swift in Sources */,
+				EC1A677D1E3CEB37009E5934 /* ServerConfig.swift in Sources */,
+				EC1A677F1E3CEC28009E5934 /* Service.swift in Sources */,
+				EC1A67851E3CF059009E5934 /* Route.swift in Sources */,
+				EC1A677B1E3CEACD009E5934 /* ServiceType.swift in Sources */,
+				EC2E927B1E3CFD0700E089D5 /* Question.swift in Sources */,
 				EC1A67321E3CE2C0009E5934 /* AppDelegate.swift in Sources */,
+				EC2E927C1E3CFD0700E089D5 /* QuestionEnvelope.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +381,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5PKTA338CL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = QuizWorldAPI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = a.QuizWorldAPI;
@@ -353,6 +398,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5PKTA338CL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = QuizWorldAPI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = a.QuizWorldAPI;
@@ -367,6 +416,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 5PKTA338CL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = QuizWorldAPITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = a.QuizWorldAPITests;
@@ -382,6 +435,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 5PKTA338CL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = QuizWorldAPITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = a.QuizWorldAPITests;
@@ -410,6 +467,7 @@
 				EC1A674D1E3CE2C0009E5934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC1A674E1E3CE2C0009E5934 /* Build configuration list for PBXNativeTarget "QuizWorldAPITests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +476,7 @@
 				EC1A67501E3CE2C0009E5934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
