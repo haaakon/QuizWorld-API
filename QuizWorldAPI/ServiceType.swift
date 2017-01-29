@@ -15,8 +15,8 @@ public protocol ServiceType {
     
     var serverConfig: ServerConfigType { get }
     
-    /// Fetch friends for a user.
-//    func fetchQuestions() -> SignalProducer<QuestionEnvelope, ErrorEnvelope>
-
+    /// Fetch all questions.
+    func fetchQuestions() -> SignalProducer<QuestionEnvelope, ErrorEnvelope>
+    
 }
 

@@ -7,9 +7,21 @@
 //
 
 import Foundation
+import Argo
+import Curry
+import Runes
 
 public struct QuestionEnvelope {
     
     public let questions: [Question]
     
 }
+
+extension QuestionEnvelope: Decodable {
+    public static func decode(_ json: JSON) -> Decoded<QuestionEnvelope> {
+        return curry(QuestionEnvelope.init)
+            <^> json <|| "questions"
+        
+    }
+}
+

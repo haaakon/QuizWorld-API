@@ -7,10 +7,19 @@
 //
 
 import Foundation
+import Argo
 
-public struct ErrorEnvelope : Error {
+public struct ErrorEnvelope {
     
     public let QWCode: String
+    
+    internal static func couldNotDecodeJSON(_ decodeError: DecodeError) -> ErrorEnvelope {
+        
+        return ErrorEnvelope(QWCode:"could not decode JSON")
+        
+    }
+    
+    internal static let couldNotParseJSON = ErrorEnvelope(QWCode:"")
     
     init(QWCode: String) {
         
@@ -20,3 +29,5 @@ public struct ErrorEnvelope : Error {
     
     
 }
+
+extension ErrorEnvelope: Error {}

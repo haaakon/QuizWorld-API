@@ -7,9 +7,24 @@
 //
 
 import Foundation
-
+import Argo
+import Curry
+import Runes
 
 public struct Question {
-
     
+    let text: String
+    let alternatives: [Alternative]
+    
+}
+
+extension Question: Decodable {
+    public static func decode(_ json: JSON) -> Decoded<Question> {
+        
+        return curry(Question.init)
+            <^> json <| "text"
+            <*> json <|| "alternatives"
+        
+        
+    }
 }
