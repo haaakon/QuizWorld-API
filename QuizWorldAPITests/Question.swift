@@ -19,12 +19,13 @@ public struct Question {
 }
 
 extension Question: Decodable {
+    
     public static func decode(_ json: JSON) -> Decoded<Question> {
         
         return curry(Question.init)
             <^> json <| "text"
             <*> json <|| "alternatives"
         
-        
     }
+    
 }
