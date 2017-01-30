@@ -15,7 +15,6 @@ class QuizWorldAPITests: XCTestCase {
 
     override func setUp() {
         super.setUp()
-        vm.outputs.questionText.observe(showQuestionText.observer)
         
         // Put setup code here. This method is called before the invocation of each test method in the class.
         
