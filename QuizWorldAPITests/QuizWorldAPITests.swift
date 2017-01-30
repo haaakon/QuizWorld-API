@@ -11,8 +11,8 @@ import XCTest
 
 class QuizWorldAPITests: XCTestCase {
     
- 
-
+    
+    
     override func setUp() {
         super.setUp()
         
@@ -26,7 +26,6 @@ class QuizWorldAPITests: XCTestCase {
     }
     
     func testExample() {
-        XCTAssertFalse(true)
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
