@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC1A67321E3CE2C0009E5934 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1A67311E3CE2C0009E5934 /* AppDelegate.swift */; };
-		EC1A67341E3CE2C0009E5934 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1A67331E3CE2C0009E5934 /* ViewController.swift */; };
-		EC1A67371E3CE2C0009E5934 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1A67351E3CE2C0009E5934 /* Main.storyboard */; };
-		EC1A67391E3CE2C0009E5934 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1A67381E3CE2C0009E5934 /* Assets.xcassets */; };
-		EC1A673C1E3CE2C0009E5934 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1A673A1E3CE2C0009E5934 /* LaunchScreen.storyboard */; };
 		EC1A67471E3CE2C0009E5934 /* QuizWorldAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1A67461E3CE2C0009E5934 /* QuizWorldAPITests.swift */; };
 		EC1A677B1E3CEACD009E5934 /* ServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1A677A1E3CEACD009E5934 /* ServiceType.swift */; };
 		EC1A677D1E3CEB37009E5934 /* ServerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1A677C1E3CEB37009E5934 /* ServerConfig.swift */; };
@@ -31,6 +26,7 @@
 		EC8465B31E3D1E27004FD624 /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2E92A31E3D0A9900E089D5 /* Argo.framework */; };
 		EC8465B41E3D1E33004FD624 /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2E92B91E3D0AC200E089D5 /* Curry.framework */; };
 		ECD3942B1E3D2C40007D6A37 /* Alternative.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD3942A1E3D2C40007D6A37 /* Alternative.swift */; };
+		ECD3942E1E3E26F2007D6A37 /* QuizWorldAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = ECD3942D1E3E26DF007D6A37 /* QuizWorldAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -311,11 +307,6 @@
 
 /* Begin PBXFileReference section */
 		EC1A672E1E3CE2C0009E5934 /* QuizWorldAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuizWorldAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC1A67311E3CE2C0009E5934 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC1A67331E3CE2C0009E5934 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EC1A67361E3CE2C0009E5934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EC1A67381E3CE2C0009E5934 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EC1A673B1E3CE2C0009E5934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC1A673D1E3CE2C0009E5934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC1A67421E3CE2C0009E5934 /* QuizWorldAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizWorldAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC1A67461E3CE2C0009E5934 /* QuizWorldAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizWorldAPITests.swift; sourceTree = "<group>"; };
@@ -336,6 +327,7 @@
 		EC84659B1E3D1740004FD624 /* MockService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockService.swift; sourceTree = "<group>"; };
 		EC84659F1E3D1A8D004FD624 /* Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Decodable.swift; path = QuizWorldAPITests/Decodable.swift; sourceTree = SOURCE_ROOT; };
 		ECD3942A1E3D2C40007D6A37 /* Alternative.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alternative.swift; sourceTree = "<group>"; };
+		ECD3942D1E3E26DF007D6A37 /* QuizWorldAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuizWorldAPI.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -385,8 +377,7 @@
 		EC1A67301E3CE2C0009E5934 /* QuizWorldAPI */ = {
 			isa = PBXGroup;
 			children = (
-				EC1A67311E3CE2C0009E5934 /* AppDelegate.swift */,
-				EC1A67331E3CE2C0009E5934 /* ViewController.swift */,
+				ECD3942D1E3E26DF007D6A37 /* QuizWorldAPI.h */,
 				EC1A677E1E3CEC28009E5934 /* Service.swift */,
 				EC1A67841E3CF059009E5934 /* Route.swift */,
 				EC1A677A1E3CEACD009E5934 /* ServiceType.swift */,
@@ -394,9 +385,6 @@
 				ECD3940D1E3D28EB007D6A37 /* models */,
 				EC8465981E3D109E004FD624 /* NSURLSession.swift */,
 				EC84659F1E3D1A8D004FD624 /* Decodable.swift */,
-				EC1A67351E3CE2C0009E5934 /* Main.storyboard */,
-				EC1A67381E3CE2C0009E5934 /* Assets.xcassets */,
-				EC1A673A1E3CE2C0009E5934 /* LaunchScreen.storyboard */,
 				EC1A673D1E3CE2C0009E5934 /* Info.plist */,
 			);
 			path = QuizWorldAPI;
@@ -512,6 +500,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ECD3942C1E3E26B6007D6A37 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD3942E1E3E26F2007D6A37 /* QuizWorldAPI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -522,6 +518,7 @@
 				EC1A672A1E3CE2C0009E5934 /* Sources */,
 				EC1A672B1E3CE2C0009E5934 /* Frameworks */,
 				EC1A672C1E3CE2C0009E5934 /* Resources */,
+				ECD3942C1E3E26B6007D6A37 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -850,9 +847,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC1A673C1E3CE2C0009E5934 /* LaunchScreen.storyboard in Resources */,
-				EC1A67391E3CE2C0009E5934 /* Assets.xcassets in Resources */,
-				EC1A67371E3CE2C0009E5934 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -871,7 +865,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC2E927F1E3CFDB000E089D5 /* ErrorEnvelope.swift in Sources */,
-				EC1A67341E3CE2C0009E5934 /* ViewController.swift in Sources */,
 				EC1A677D1E3CEB37009E5934 /* ServerConfig.swift in Sources */,
 				EC1A677F1E3CEC28009E5934 /* Service.swift in Sources */,
 				EC1A67851E3CF059009E5934 /* Route.swift in Sources */,
@@ -880,7 +873,6 @@
 				EC2E927B1E3CFD0700E089D5 /* Question.swift in Sources */,
 				EC8465A21E3D1A9B004FD624 /* Decodable.swift in Sources */,
 				EC84659A1E3D10D1004FD624 /* NSURLSession.swift in Sources */,
-				EC1A67321E3CE2C0009E5934 /* AppDelegate.swift in Sources */,
 				EC2E927C1E3CFD0700E089D5 /* QuestionEnvelope.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -933,25 +925,6 @@
 			targetProxy = ECD69B3C1E3D21FA00C4F5C8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		EC1A67351E3CE2C0009E5934 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EC1A67361E3CE2C0009E5934 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EC1A673A1E3CE2C0009E5934 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EC1A673B1E3CE2C0009E5934 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EC1A67491E3CE2C0009E5934 /* Debug */ = {
