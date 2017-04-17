@@ -1,4 +1,5 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "90DD4829576F1B371A4F816ADC49FE2FE0997BB2",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
@@ -9,19 +10,21 @@
     "E139BF47DAAF0281292F8A8A85F2631B9D6680F3" : 9223372036854775807,
     "956D2B21DD155C49504BB67697A67F7C5351A353" : 9223372036854775807,
     "E084C86B03F81D63323C9E7510697EA528A758C7" : 9223372036854775807,
+    "90DD4829576F1B371A4F816ADC49FE2FE0997BB2" : 9223372036854775807,
     "51B210D0D41486D3ADD6940D57E4480BBD4DE4C5" : 9223372036854775807,
     "0A5C3A6DB1EA9211CEFA5384E9882B4D710699A4" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EF3776B8-0E7B-47F1-AF07-733B7F46A504",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "39CB70283A1C33AFB5FF861E924945826EDC74FE" : "QuizWorldAPI\/Frameworks\/Argo\/",
-    "194A7A54F3CE0138A6C320E0643B7C60F8218891" : "QuizWorldAPI\/Frameworks\/Curry\/",
-    "56143BFACBB606C93830EB59176C6A4332845E1D" : "QuizWorldAPI\/Frameworks\/Prelude\/",
-    "E139BF47DAAF0281292F8A8A85F2631B9D6680F3" : "QuizWorldAPI\/Frameworks\/Kickstarter-ReactiveExtensions\/",
-    "956D2B21DD155C49504BB67697A67F7C5351A353" : "QuizWorldAPI\/Frameworks\/Kickstarter-ReactiveExtensions\/Frameworks\/ReactiveSwift\/Carthage\/Checkouts\/Result\/",
-    "E084C86B03F81D63323C9E7510697EA528A758C7" : "QuizWorldAPI\/Frameworks\/Kickstarter-ReactiveExtensions\/Frameworks\/ReactiveSwift\/Carthage\/Checkouts\/xcconfigs\/",
-    "51B210D0D41486D3ADD6940D57E4480BBD4DE4C5" : "QuizWorldAPI\/Frameworks\/Kickstarter-ReactiveExtensions\/Frameworks\/ReactiveSwift\/",
-    "0A5C3A6DB1EA9211CEFA5384E9882B4D710699A4" : "QuizWorldAPI\/Frameworks\/Runes\/"
+    "39CB70283A1C33AFB5FF861E924945826EDC74FE" : "QuizWorld-API\/Frameworks\/Argo\/",
+    "194A7A54F3CE0138A6C320E0643B7C60F8218891" : "QuizWorld-API\/Frameworks\/Curry\/",
+    "56143BFACBB606C93830EB59176C6A4332845E1D" : "QuizWorld-API\/Frameworks\/Prelude\/",
+    "E139BF47DAAF0281292F8A8A85F2631B9D6680F3" : "QuizWorld-API\/Frameworks\/Kickstarter-ReactiveExtensions\/",
+    "956D2B21DD155C49504BB67697A67F7C5351A353" : "QuizWorld-API\/Frameworks\/Kickstarter-ReactiveExtensions\/Frameworks\/ReactiveSwift\/Carthage\/Checkouts\/Result\/",
+    "E084C86B03F81D63323C9E7510697EA528A758C7" : "QuizWorld-API\/Frameworks\/Kickstarter-ReactiveExtensions\/Frameworks\/ReactiveSwift\/Carthage\/Checkouts\/xcconfigs\/",
+    "90DD4829576F1B371A4F816ADC49FE2FE0997BB2" : "QuizWorld-API\/",
+    "51B210D0D41486D3ADD6940D57E4480BBD4DE4C5" : "QuizWorld-API\/Frameworks\/Kickstarter-ReactiveExtensions\/Frameworks\/ReactiveSwift\/",
+    "0A5C3A6DB1EA9211CEFA5384E9882B4D710699A4" : "QuizWorld-API\/Frameworks\/Runes\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "QuizWorldAPI",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -51,6 +54,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kickstarter\/Kickstarter-Prelude.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "56143BFACBB606C93830EB59176C6A4332845E1D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/haaakon\/QuizWorld-API",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "90DD4829576F1B371A4F816ADC49FE2FE0997BB2"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/antitypical\/Result.git",

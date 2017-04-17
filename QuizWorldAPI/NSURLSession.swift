@@ -34,7 +34,7 @@ extension URLSession {
             
             return self.rac_dataResponse(request)
                 .map(parseJSONData)
-                .flatMap { json -> SignalProducer<Any, ErrorEnvelope> in
+                .flatMap(FlattenStrategy.merge) { json -> SignalProducer<Any, ErrorEnvelope> in
                     guard let json = json else {
                         
                         return .init(error: .couldNotParseJSON)

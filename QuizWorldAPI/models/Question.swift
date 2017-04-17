@@ -13,7 +13,7 @@ import Runes
 
 public struct Question {
     
-    let text: String
+    public let text: String
     let alternatives: [Alternative]
     
 }

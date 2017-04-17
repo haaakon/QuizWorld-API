@@ -79,8 +79,7 @@ public struct Service: ServiceType {
             
             return Service.session.rac_JSONResponse(
                 request
-                )
-                .flatMap(decodeModel)
+                ).flatMap(FlattenStrategy.concat, transform: decodeModel)
     }
     
     private func request<M: Decodable>(_ route: Route)
@@ -93,8 +92,7 @@ public struct Service: ServiceType {
             
             return Service.session.rac_JSONResponse(
                 request
-                )
-                .flatMap(decodeModels)
+                ).flatMap(FlattenStrategy.concat, transform: decodeModels)
     }
 }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8CEEE605D85D561A836AE529 /* Pods_QuizWorldAPITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358AFCDCFEDA2717BF2FD535 /* Pods_QuizWorldAPITests.framework */; };
 		EC1A67471E3CE2C0009E5934 /* QuizWorldAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1A67461E3CE2C0009E5934 /* QuizWorldAPITests.swift */; };
 		EC1A677B1E3CEACD009E5934 /* ServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1A677A1E3CEACD009E5934 /* ServiceType.swift */; };
 		EC1A677D1E3CEB37009E5934 /* ServerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1A677C1E3CEB37009E5934 /* ServerConfig.swift */; };
@@ -15,252 +16,16 @@
 		EC2E927B1E3CFD0700E089D5 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1A67801E3CEC77009E5934 /* Question.swift */; };
 		EC2E927C1E3CFD0700E089D5 /* QuestionEnvelope.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1A67821E3CEC88009E5934 /* QuestionEnvelope.swift */; };
 		EC2E927F1E3CFDB000E089D5 /* ErrorEnvelope.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2E927D1E3CFD3A00E089D5 /* ErrorEnvelope.swift */; };
-		EC4345AB1E3D22CC00D654AA /* ReactiveExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2E92E41E3D0ADE00E089D5 /* ReactiveExtensions.framework */; };
 		EC4345AC1E3D239D00D654AA /* QuizWorldAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1A672E1E3CE2C0009E5934 /* QuizWorldAPI.framework */; };
-		EC4345AD1E3D23A200D654AA /* ReactiveExtensions_TestHelpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2E92EC1E3D0ADE00E089D5 /* ReactiveExtensions_TestHelpers.framework */; };
+		EC44525185321B267666F0E6 /* Pods_QuizWorldAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEF3AF5DADC5D305C34CFE6 /* Pods_QuizWorldAPI.framework */; };
 		EC84659A1E3D10D1004FD624 /* NSURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8465981E3D109E004FD624 /* NSURLSession.swift */; };
 		EC84659E1E3D1780004FD624 /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC84659B1E3D1740004FD624 /* MockService.swift */; };
 		EC8465A21E3D1A9B004FD624 /* Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC84659F1E3D1A8D004FD624 /* Decodable.swift */; };
-		EC8465B11E3D1E01004FD624 /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC84658A1E3D0DDE004FD624 /* Runes.framework */; };
-		EC8465B21E3D1E1C004FD624 /* Prelude.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2E93041E3D0C0E00E089D5 /* Prelude.framework */; };
-		EC8465B31E3D1E27004FD624 /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2E92A31E3D0A9900E089D5 /* Argo.framework */; };
-		EC8465B41E3D1E33004FD624 /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2E92B91E3D0AC200E089D5 /* Curry.framework */; };
 		ECD3942B1E3D2C40007D6A37 /* Alternative.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD3942A1E3D2C40007D6A37 /* Alternative.swift */; };
 		ECD3942E1E3E26F2007D6A37 /* QuizWorldAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = ECD3942D1E3E26DF007D6A37 /* QuizWorldAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EC2E92A21E3D0A9900E089D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC2E92981E3D0A9600E089D5 /* Argo.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EAD9FACF19D0EAB50031E006;
-			remoteInfo = "Argo-iOS";
-		};
-		EC2E92A41E3D0A9900E089D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC2E92981E3D0A9600E089D5 /* Argo.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EAD9FADA19D0EAB60031E006;
-			remoteInfo = ArgoTests;
-		};
-		EC2E92A61E3D0A9900E089D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC2E92981E3D0A9600E089D5 /* Argo.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F89335541A4CE83000B88685;
-			remoteInfo = "Argo-Mac";
-		};
-		EC2E92A81E3D0A9900E089D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC2E92981E3D0A9600E089D5 /* Argo.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F893355E1A4CE83000B88685;
-			remoteInfo = "Argo-MacTests";
-		};
-		EC2E92AA1E3D0A9900E089D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC2E92981E3D0A9600E089D5 /* Argo.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D0592EB61B77DD7800EFEF39;
-			remoteInfo = "Argo-watchOS";
-		};
-		EC2E92AC1E3D0A9900E089D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC2E92981E3D0A9600E089D5 /* Argo.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 809754C11BADF34100C409E6;
-			remoteInfo = "Argo-tvOS";
-		};
-		EC2E92AE1E3D0A9900E089D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC2E92981E3D0A9600E089D5 /* Argo.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 809754CA1BADF34200C409E6;
-			remoteInfo = "Argo-tvOSTests";
-		};
-		EC2E92B81E3D0AC200E089D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC2E92B11E3D0ABA00E089D5 /* Curry.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F88630561B4EF96200F53969;
-			remoteInfo = "Curry-iOS";
-		};
-		EC2E92BA1E3D0AC200E089D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC2E92B11E3D0ABA00E089D5 /* Curry.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F886307D1B4EF9F800F53969;
-			remoteInfo = "Curry-Mac";
-		};
-		EC2E92BC1E3D0AC200E089D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC2E92B11E3D0ABA00E089D5 /* Curry.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 804D01F31BA3684C0005BBC4;
-			remoteInfo = "Curry-watchOS";
-		};
-		EC2E92BE1E3D0AC200E089D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC2E92B11E3D0ABA00E089D5 /* Curry.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 80E059071BA9FA7F0077CBA7;
-			remoteInfo = "Curry-tvOS";
-		};
-		EC2E92E31E3D0ADE00E089D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC2E92C81E3D0ADD00E089D5 /* ReactiveExtensions.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A7FD08B41C81EDBD00332CCB;
-			remoteInfo = "ReactiveExtensions-iOS";
-		};
-		EC2E92E51E3D0ADE00E089D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC2E92C81E3D0ADD00E089D5 /* ReactiveExtensions.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A7FD08E11C81EEA100332CCB;
-			remoteInfo = "ReactiveExtensions-iOSTests";
-		};
-		EC2E92E71E3D0ADE00E089D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC2E92C81E3D0ADD00E089D5 /* ReactiveExtensions.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = CA43C6631BB35FCF00C180DA;
-			remoteInfo = "ReactiveExtensions-tvOS";
-		};
-		EC2E92E91E3D0ADE00E089D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC2E92C81E3D0ADD00E089D5 /* ReactiveExtensions.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A7983B881C2AFB1C003A1ABE;
-			remoteInfo = "ReactiveExtensions-tvOSTests";
-		};
-		EC2E92EB1E3D0ADE00E089D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC2E92C81E3D0ADD00E089D5 /* ReactiveExtensions.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A7DB1D3A1C9F355E008244DA;
-			remoteInfo = "ReactiveExtensions-TestHelpers-iOS";
-		};
-		EC2E92ED1E3D0ADE00E089D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC2E92C81E3D0ADD00E089D5 /* ReactiveExtensions.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A7DB1D5A1C9F4FD7008244DA;
-			remoteInfo = "ReactiveExtensions-TestHelpers-tvOS";
-		};
-		EC2E93031E3D0C0E00E089D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC2E92F81E3D0C0E00E089D5 /* Prelude.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A7FD08641C81E1DA00332CCB;
-			remoteInfo = "Prelude-iOS";
-		};
-		EC2E93051E3D0C0E00E089D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC2E92F81E3D0C0E00E089D5 /* Prelude.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A7FD087B1C81E24A00332CCB;
-			remoteInfo = "Prelude-iOSTests";
-		};
-		EC2E93071E3D0C0E00E089D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC2E92F81E3D0C0E00E089D5 /* Prelude.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = CA0923F81BB6291900C9EC88;
-			remoteInfo = "Prelude-tvOS";
-		};
-		EC2E93091E3D0C0E00E089D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC2E92F81E3D0C0E00E089D5 /* Prelude.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = CA0924021BB6291900C9EC88;
-			remoteInfo = "Prelude-tvOSTests";
-		};
-		EC2E930B1E3D0C0E00E089D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC2E92F81E3D0C0E00E089D5 /* Prelude.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A727E0221D0796D600D8FE43;
-			remoteInfo = "Prelude-UIKit-iOS";
-		};
-		EC2E930D1E3D0C0E00E089D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC2E92F81E3D0C0E00E089D5 /* Prelude.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A727E02B1D0796D600D8FE43;
-			remoteInfo = "Prelude-UIKit-iOSTests";
-		};
-		EC2E930F1E3D0C0E00E089D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC2E92F81E3D0C0E00E089D5 /* Prelude.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A70969081D14373400DB39D3;
-			remoteInfo = "Prelude-UIKit-tvOS";
-		};
-		EC2E93111E3D0C0E00E089D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC2E92F81E3D0C0E00E089D5 /* Prelude.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A70969111D14373400DB39D3;
-			remoteInfo = "Prelude-UIKit-tvOSTests";
-		};
-		EC8465891E3D0DDE004FD624 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC8465661E3D0DD6004FD624 /* Runes.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F802D4D21A5F218E005E236C;
-			remoteInfo = "Runes-iOS";
-		};
-		EC84658B1E3D0DDE004FD624 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC8465661E3D0DD6004FD624 /* Runes.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F86B2E0B1A5F2B8D00C3B8BD;
-			remoteInfo = "Runes-Mac";
-		};
-		EC84658D1E3D0DDE004FD624 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC8465661E3D0DD6004FD624 /* Runes.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 51DE8A121BAB363500124320;
-			remoteInfo = "Runes-tvOS";
-		};
-		EC84658F1E3D0DDE004FD624 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC8465661E3D0DD6004FD624 /* Runes.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F8624C261A645A9600C883B3;
-			remoteInfo = "Runes-iOS Tests";
-		};
-		EC8465911E3D0DDE004FD624 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC8465661E3D0DD6004FD624 /* Runes.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F8624C451A645C9500C883B3;
-			remoteInfo = "Runes-Mac Tests";
-		};
-		EC8465931E3D0DDE004FD624 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC8465661E3D0DD6004FD624 /* Runes.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 51DE8A211BAB36E600124320;
-			remoteInfo = "Runes-tvOS Tests";
-		};
-		EC8465951E3D0DDE004FD624 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC8465661E3D0DD6004FD624 /* Runes.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EAA6A5101B2F154D0058E9A8;
-			remoteInfo = "Runes-watchOS";
-		};
-		EC8465A31E3D1B44004FD624 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC2E92C81E3D0ADD00E089D5 /* ReactiveExtensions.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = A7DB1D391C9F355E008244DA;
-			remoteInfo = "ReactiveExtensions-TestHelpers-iOS";
-		};
 		EC8465A81E3D1C20004FD624 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EC1A67261E3CE2C0009E5934 /* Project object */;
@@ -268,44 +33,14 @@
 			remoteGlobalIDString = EC1A672D1E3CE2C0009E5934;
 			remoteInfo = QuizWorldAPI;
 		};
-		ECD69B341E3D21E400C4F5C8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC8465661E3D0DD6004FD624 /* Runes.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = F802D4D11A5F218E005E236C;
-			remoteInfo = "Runes-iOS";
-		};
-		ECD69B361E3D21E800C4F5C8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC2E92C81E3D0ADD00E089D5 /* ReactiveExtensions.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = A7FD08861C81EDBD00332CCB;
-			remoteInfo = "ReactiveExtensions-iOS";
-		};
-		ECD69B381E3D21EF00C4F5C8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC2E92B11E3D0ABA00E089D5 /* Curry.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = F88630551B4EF96200F53969;
-			remoteInfo = "Curry-iOS";
-		};
-		ECD69B3A1E3D21F400C4F5C8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC2E92981E3D0A9600E089D5 /* Argo.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = EAD9FACE19D0EAB50031E006;
-			remoteInfo = "Argo-iOS";
-		};
-		ECD69B3C1E3D21FA00C4F5C8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC2E92F81E3D0C0E00E089D5 /* Prelude.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = A7FD084C1C81E1DA00332CCB;
-			remoteInfo = "Prelude-iOS";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FEF3AF5DADC5D305C34CFE6 /* Pods_QuizWorldAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuizWorldAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		358AFCDCFEDA2717BF2FD535 /* Pods_QuizWorldAPITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuizWorldAPITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		411F3FDE74756B3BFE45B01D /* Pods-QuizWorldAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizWorldAPITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuizWorldAPITests/Pods-QuizWorldAPITests.debug.xcconfig"; sourceTree = "<group>"; };
+		814D8B887BCF138BDEC20FD6 /* Pods-QuizWorldAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizWorldAPI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuizWorldAPI/Pods-QuizWorldAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		89F7002C7E8A139C7E66BB0A /* Pods-QuizWorldAPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizWorldAPITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuizWorldAPITests/Pods-QuizWorldAPITests.release.xcconfig"; sourceTree = "<group>"; };
 		EC1A672E1E3CE2C0009E5934 /* QuizWorldAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuizWorldAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC1A673D1E3CE2C0009E5934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC1A67421E3CE2C0009E5934 /* QuizWorldAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizWorldAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -314,20 +49,16 @@
 		EC1A677A1E3CEACD009E5934 /* ServiceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceType.swift; sourceTree = "<group>"; };
 		EC1A677C1E3CEB37009E5934 /* ServerConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerConfig.swift; sourceTree = "<group>"; };
 		EC1A677E1E3CEC28009E5934 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
-		EC1A67801E3CEC77009E5934 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Question.swift; path = QuizWorldAPITests/Question.swift; sourceTree = SOURCE_ROOT; };
-		EC1A67821E3CEC88009E5934 /* QuestionEnvelope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuestionEnvelope.swift; path = QuizWorldAPITests/QuestionEnvelope.swift; sourceTree = SOURCE_ROOT; };
+		EC1A67801E3CEC77009E5934 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Question.swift; path = Question.swift; sourceTree = "<group>"; };
+		EC1A67821E3CEC88009E5934 /* QuestionEnvelope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuestionEnvelope.swift; path = QuestionEnvelope.swift; sourceTree = "<group>"; };
 		EC1A67841E3CF059009E5934 /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
-		EC2E927D1E3CFD3A00E089D5 /* ErrorEnvelope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ErrorEnvelope.swift; path = QuizWorldAPITests/ErrorEnvelope.swift; sourceTree = SOURCE_ROOT; };
-		EC2E92981E3D0A9600E089D5 /* Argo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Argo.xcodeproj; path = Frameworks/Argo/Argo.xcodeproj; sourceTree = "<group>"; };
-		EC2E92B11E3D0ABA00E089D5 /* Curry.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Curry.xcodeproj; path = Frameworks/Curry/Curry.xcodeproj; sourceTree = "<group>"; };
-		EC2E92C81E3D0ADD00E089D5 /* ReactiveExtensions.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveExtensions.xcodeproj; path = "Frameworks/Kickstarter-ReactiveExtensions/ReactiveExtensions.xcodeproj"; sourceTree = "<group>"; };
-		EC2E92F81E3D0C0E00E089D5 /* Prelude.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Prelude.xcodeproj; path = Frameworks/Prelude/Prelude.xcodeproj; sourceTree = "<group>"; };
-		EC8465661E3D0DD6004FD624 /* Runes.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Runes.xcodeproj; path = Frameworks/Runes/Runes.xcodeproj; sourceTree = "<group>"; };
-		EC8465981E3D109E004FD624 /* NSURLSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSURLSession.swift; path = QuizWorldAPITests/NSURLSession.swift; sourceTree = SOURCE_ROOT; };
+		EC2E927D1E3CFD3A00E089D5 /* ErrorEnvelope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ErrorEnvelope.swift; path = ErrorEnvelope.swift; sourceTree = "<group>"; };
+		EC4B19891EE4249A9506938E /* Pods-QuizWorldAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizWorldAPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuizWorldAPI/Pods-QuizWorldAPI.release.xcconfig"; sourceTree = "<group>"; };
+		EC8465981E3D109E004FD624 /* NSURLSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSURLSession.swift; path = NSURLSession.swift; sourceTree = "<group>"; };
 		EC84659B1E3D1740004FD624 /* MockService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockService.swift; sourceTree = "<group>"; };
-		EC84659F1E3D1A8D004FD624 /* Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Decodable.swift; path = QuizWorldAPITests/Decodable.swift; sourceTree = SOURCE_ROOT; };
+		EC84659F1E3D1A8D004FD624 /* Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Decodable.swift; path = Decodable.swift; sourceTree = "<group>"; };
 		ECD3942A1E3D2C40007D6A37 /* Alternative.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alternative.swift; sourceTree = "<group>"; };
-		ECD3942D1E3E26DF007D6A37 /* QuizWorldAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuizWorldAPI.h; sourceTree = SOURCE_ROOT; };
+		ECD3942D1E3E26DF007D6A37 /* QuizWorldAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuizWorldAPI.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -335,11 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC8465B31E3D1E27004FD624 /* Argo.framework in Frameworks */,
-				EC4345AB1E3D22CC00D654AA /* ReactiveExtensions.framework in Frameworks */,
-				EC8465B41E3D1E33004FD624 /* Curry.framework in Frameworks */,
-				EC8465B21E3D1E1C004FD624 /* Prelude.framework in Frameworks */,
-				EC8465B11E3D1E01004FD624 /* Runes.framework in Frameworks */,
+				EC44525185321B267666F0E6 /* Pods_QuizWorldAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,21 +74,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC4345AD1E3D23A200D654AA /* ReactiveExtensions_TestHelpers.framework in Frameworks */,
 				EC4345AC1E3D239D00D654AA /* QuizWorldAPI.framework in Frameworks */,
+				8CEEE605D85D561A836AE529 /* Pods_QuizWorldAPITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A0C4FD7639F68657E88E6CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				814D8B887BCF138BDEC20FD6 /* Pods-QuizWorldAPI.debug.xcconfig */,
+				EC4B19891EE4249A9506938E /* Pods-QuizWorldAPI.release.xcconfig */,
+				411F3FDE74756B3BFE45B01D /* Pods-QuizWorldAPITests.debug.xcconfig */,
+				89F7002C7E8A139C7E66BB0A /* Pods-QuizWorldAPITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EC1A67251E3CE2C0009E5934 = {
 			isa = PBXGroup;
 			children = (
+				EC2E92B01E3D0AA300E089D5 /* Frameworks */,
+				7A0C4FD7639F68657E88E6CC /* Pods */,
+				EC1A672F1E3CE2C0009E5934 /* Products */,
 				EC1A67301E3CE2C0009E5934 /* QuizWorldAPI */,
 				EC1A67451E3CE2C0009E5934 /* QuizWorldAPITests */,
-				EC1A672F1E3CE2C0009E5934 /* Products */,
-				EC2E92B01E3D0AA300E089D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -377,15 +116,15 @@
 		EC1A67301E3CE2C0009E5934 /* QuizWorldAPI */ = {
 			isa = PBXGroup;
 			children = (
-				ECD3942D1E3E26DF007D6A37 /* QuizWorldAPI.h */,
-				EC1A677E1E3CEC28009E5934 /* Service.swift */,
-				EC1A67841E3CF059009E5934 /* Route.swift */,
-				EC1A677A1E3CEACD009E5934 /* ServiceType.swift */,
-				EC1A677C1E3CEB37009E5934 /* ServerConfig.swift */,
 				ECD3940D1E3D28EB007D6A37 /* models */,
-				EC8465981E3D109E004FD624 /* NSURLSession.swift */,
 				EC84659F1E3D1A8D004FD624 /* Decodable.swift */,
 				EC1A673D1E3CE2C0009E5934 /* Info.plist */,
+				EC8465981E3D109E004FD624 /* NSURLSession.swift */,
+				ECD3942D1E3E26DF007D6A37 /* QuizWorldAPI.h */,
+				EC1A67841E3CF059009E5934 /* Route.swift */,
+				EC1A677C1E3CEB37009E5934 /* ServerConfig.swift */,
+				EC1A677E1E3CEC28009E5934 /* Service.swift */,
+				EC1A677A1E3CEACD009E5934 /* ServiceType.swift */,
 			);
 			path = QuizWorldAPI;
 			sourceTree = "<group>";
@@ -393,101 +132,32 @@
 		EC1A67451E3CE2C0009E5934 /* QuizWorldAPITests */ = {
 			isa = PBXGroup;
 			children = (
-				EC1A67461E3CE2C0009E5934 /* QuizWorldAPITests.swift */,
-				EC84659B1E3D1740004FD624 /* MockService.swift */,
 				EC1A67481E3CE2C0009E5934 /* Info.plist */,
+				EC84659B1E3D1740004FD624 /* MockService.swift */,
+				EC1A67461E3CE2C0009E5934 /* QuizWorldAPITests.swift */,
 			);
 			path = QuizWorldAPITests;
-			sourceTree = "<group>";
-		};
-		EC2E92991E3D0A9600E089D5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				EC2E92A31E3D0A9900E089D5 /* Argo.framework */,
-				EC2E92A51E3D0A9900E089D5 /* ArgoTests.xctest */,
-				EC2E92A71E3D0A9900E089D5 /* Argo.framework */,
-				EC2E92A91E3D0A9900E089D5 /* Argo-MacTests.xctest */,
-				EC2E92AB1E3D0A9900E089D5 /* Argo.framework */,
-				EC2E92AD1E3D0A9900E089D5 /* Argo.framework */,
-				EC2E92AF1E3D0A9900E089D5 /* Argo-tvOSTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		EC2E92B01E3D0AA300E089D5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EC8465661E3D0DD6004FD624 /* Runes.xcodeproj */,
-				EC2E92C81E3D0ADD00E089D5 /* ReactiveExtensions.xcodeproj */,
-				EC2E92B11E3D0ABA00E089D5 /* Curry.xcodeproj */,
-				EC2E92981E3D0A9600E089D5 /* Argo.xcodeproj */,
-				EC2E92F81E3D0C0E00E089D5 /* Prelude.xcodeproj */,
+				0FEF3AF5DADC5D305C34CFE6 /* Pods_QuizWorldAPI.framework */,
+				358AFCDCFEDA2717BF2FD535 /* Pods_QuizWorldAPITests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EC2E92B21E3D0ABA00E089D5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				EC2E92B91E3D0AC200E089D5 /* Curry.framework */,
-				EC2E92BB1E3D0AC200E089D5 /* Curry.framework */,
-				EC2E92BD1E3D0AC200E089D5 /* Curry.framework */,
-				EC2E92BF1E3D0AC200E089D5 /* Curry.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		EC2E92C91E3D0ADD00E089D5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				EC2E92E41E3D0ADE00E089D5 /* ReactiveExtensions.framework */,
-				EC2E92E61E3D0ADE00E089D5 /* ReactiveExtensions-iOSTests.xctest */,
-				EC2E92E81E3D0ADE00E089D5 /* ReactiveExtensions.framework */,
-				EC2E92EA1E3D0ADE00E089D5 /* ReactiveExtensions-tvOSTests.xctest */,
-				EC2E92EC1E3D0ADE00E089D5 /* ReactiveExtensions_TestHelpers.framework */,
-				EC2E92EE1E3D0ADE00E089D5 /* ReactiveExtensions_TestHelpers.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		EC2E92F91E3D0C0E00E089D5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				EC2E93041E3D0C0E00E089D5 /* Prelude.framework */,
-				EC2E93061E3D0C0E00E089D5 /* Prelude-iOSTests.xctest */,
-				EC2E93081E3D0C0E00E089D5 /* Prelude.framework */,
-				EC2E930A1E3D0C0E00E089D5 /* Prelude-tvOSTests.xctest */,
-				EC2E930C1E3D0C0E00E089D5 /* Prelude_UIKit.framework */,
-				EC2E930E1E3D0C0E00E089D5 /* Prelude-UIKit-iOSTests.xctest */,
-				EC2E93101E3D0C0E00E089D5 /* Prelude_UIKit.framework */,
-				EC2E93121E3D0C0E00E089D5 /* Prelude-UIKit-tvOSTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		EC8465671E3D0DD6004FD624 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				EC84658A1E3D0DDE004FD624 /* Runes.framework */,
-				EC84658C1E3D0DDE004FD624 /* Runes.framework */,
-				EC84658E1E3D0DDE004FD624 /* Runes.framework */,
-				EC8465901E3D0DDE004FD624 /* Runes-iOS Tests.xctest */,
-				EC8465921E3D0DDE004FD624 /* Runes-Mac Tests.xctest */,
-				EC8465941E3D0DDE004FD624 /* Runes-tvOS Tests.xctest */,
-				EC8465961E3D0DDE004FD624 /* Runes.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		ECD3940D1E3D28EB007D6A37 /* models */ = {
 			isa = PBXGroup;
 			children = (
+				ECD3942A1E3D2C40007D6A37 /* Alternative.swift */,
+				EC2E927D1E3CFD3A00E089D5 /* ErrorEnvelope.swift */,
 				EC1A67801E3CEC77009E5934 /* Question.swift */,
 				EC1A67821E3CEC88009E5934 /* QuestionEnvelope.swift */,
-				EC2E927D1E3CFD3A00E089D5 /* ErrorEnvelope.swift */,
-				ECD3942A1E3D2C40007D6A37 /* Alternative.swift */,
 			);
 			name = models;
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -515,19 +185,16 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC1A674B1E3CE2C0009E5934 /* Build configuration list for PBXNativeTarget "QuizWorldAPI" */;
 			buildPhases = (
+				A45D8DCC229D97743E2216B9 /* [CP] Check Pods Manifest.lock */,
 				EC1A672A1E3CE2C0009E5934 /* Sources */,
 				EC1A672B1E3CE2C0009E5934 /* Frameworks */,
 				EC1A672C1E3CE2C0009E5934 /* Resources */,
 				ECD3942C1E3E26B6007D6A37 /* Headers */,
+				387E1A3997542979463703A0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				ECD69B371E3D21E800C4F5C8 /* PBXTargetDependency */,
-				ECD69B3D1E3D21FA00C4F5C8 /* PBXTargetDependency */,
-				ECD69B3B1E3D21F400C4F5C8 /* PBXTargetDependency */,
-				ECD69B391E3D21EF00C4F5C8 /* PBXTargetDependency */,
-				ECD69B351E3D21E400C4F5C8 /* PBXTargetDependency */,
 			);
 			name = QuizWorldAPI;
 			productName = QuizWorldAPI;
@@ -538,15 +205,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC1A674E1E3CE2C0009E5934 /* Build configuration list for PBXNativeTarget "QuizWorldAPITests" */;
 			buildPhases = (
+				5406626E9A94989F8826298B /* [CP] Check Pods Manifest.lock */,
 				EC1A673E1E3CE2C0009E5934 /* Sources */,
 				EC1A673F1E3CE2C0009E5934 /* Frameworks */,
 				EC1A67401E3CE2C0009E5934 /* Resources */,
 				EC8465A51E3D1BD0004FD624 /* Headers */,
+				8B678B8AAE1D7E20450F9941 /* [CP] Embed Pods Frameworks */,
+				E4836FC3D33F5432CDDC4F49 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EC8465A41E3D1B44004FD624 /* PBXTargetDependency */,
 				EC8465A91E3D1C20004FD624 /* PBXTargetDependency */,
 			);
 			name = QuizWorldAPITests;
@@ -585,28 +254,6 @@
 			mainGroup = EC1A67251E3CE2C0009E5934;
 			productRefGroup = EC1A672F1E3CE2C0009E5934 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = EC2E92991E3D0A9600E089D5 /* Products */;
-					ProjectRef = EC2E92981E3D0A9600E089D5 /* Argo.xcodeproj */;
-				},
-				{
-					ProductGroup = EC2E92B21E3D0ABA00E089D5 /* Products */;
-					ProjectRef = EC2E92B11E3D0ABA00E089D5 /* Curry.xcodeproj */;
-				},
-				{
-					ProductGroup = EC2E92F91E3D0C0E00E089D5 /* Products */;
-					ProjectRef = EC2E92F81E3D0C0E00E089D5 /* Prelude.xcodeproj */;
-				},
-				{
-					ProductGroup = EC2E92C91E3D0ADD00E089D5 /* Products */;
-					ProjectRef = EC2E92C81E3D0ADD00E089D5 /* ReactiveExtensions.xcodeproj */;
-				},
-				{
-					ProductGroup = EC8465671E3D0DD6004FD624 /* Products */;
-					ProjectRef = EC8465661E3D0DD6004FD624 /* Runes.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				EC1A672D1E3CE2C0009E5934 /* QuizWorldAPI */,
@@ -614,233 +261,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		EC2E92A31E3D0A9900E089D5 /* Argo.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Argo.framework;
-			remoteRef = EC2E92A21E3D0A9900E089D5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EC2E92A51E3D0A9900E089D5 /* ArgoTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ArgoTests.xctest;
-			remoteRef = EC2E92A41E3D0A9900E089D5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EC2E92A71E3D0A9900E089D5 /* Argo.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Argo.framework;
-			remoteRef = EC2E92A61E3D0A9900E089D5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EC2E92A91E3D0A9900E089D5 /* Argo-MacTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Argo-MacTests.xctest";
-			remoteRef = EC2E92A81E3D0A9900E089D5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EC2E92AB1E3D0A9900E089D5 /* Argo.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Argo.framework;
-			remoteRef = EC2E92AA1E3D0A9900E089D5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EC2E92AD1E3D0A9900E089D5 /* Argo.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Argo.framework;
-			remoteRef = EC2E92AC1E3D0A9900E089D5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EC2E92AF1E3D0A9900E089D5 /* Argo-tvOSTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Argo-tvOSTests.xctest";
-			remoteRef = EC2E92AE1E3D0A9900E089D5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EC2E92B91E3D0AC200E089D5 /* Curry.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Curry.framework;
-			remoteRef = EC2E92B81E3D0AC200E089D5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EC2E92BB1E3D0AC200E089D5 /* Curry.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Curry.framework;
-			remoteRef = EC2E92BA1E3D0AC200E089D5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EC2E92BD1E3D0AC200E089D5 /* Curry.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Curry.framework;
-			remoteRef = EC2E92BC1E3D0AC200E089D5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EC2E92BF1E3D0AC200E089D5 /* Curry.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Curry.framework;
-			remoteRef = EC2E92BE1E3D0AC200E089D5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EC2E92E41E3D0ADE00E089D5 /* ReactiveExtensions.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ReactiveExtensions.framework;
-			remoteRef = EC2E92E31E3D0ADE00E089D5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EC2E92E61E3D0ADE00E089D5 /* ReactiveExtensions-iOSTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "ReactiveExtensions-iOSTests.xctest";
-			remoteRef = EC2E92E51E3D0ADE00E089D5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EC2E92E81E3D0ADE00E089D5 /* ReactiveExtensions.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ReactiveExtensions.framework;
-			remoteRef = EC2E92E71E3D0ADE00E089D5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EC2E92EA1E3D0ADE00E089D5 /* ReactiveExtensions-tvOSTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "ReactiveExtensions-tvOSTests.xctest";
-			remoteRef = EC2E92E91E3D0ADE00E089D5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EC2E92EC1E3D0ADE00E089D5 /* ReactiveExtensions_TestHelpers.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ReactiveExtensions_TestHelpers.framework;
-			remoteRef = EC2E92EB1E3D0ADE00E089D5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EC2E92EE1E3D0ADE00E089D5 /* ReactiveExtensions_TestHelpers.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ReactiveExtensions_TestHelpers.framework;
-			remoteRef = EC2E92ED1E3D0ADE00E089D5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EC2E93041E3D0C0E00E089D5 /* Prelude.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Prelude.framework;
-			remoteRef = EC2E93031E3D0C0E00E089D5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EC2E93061E3D0C0E00E089D5 /* Prelude-iOSTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Prelude-iOSTests.xctest";
-			remoteRef = EC2E93051E3D0C0E00E089D5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EC2E93081E3D0C0E00E089D5 /* Prelude.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Prelude.framework;
-			remoteRef = EC2E93071E3D0C0E00E089D5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EC2E930A1E3D0C0E00E089D5 /* Prelude-tvOSTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Prelude-tvOSTests.xctest";
-			remoteRef = EC2E93091E3D0C0E00E089D5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EC2E930C1E3D0C0E00E089D5 /* Prelude_UIKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Prelude_UIKit.framework;
-			remoteRef = EC2E930B1E3D0C0E00E089D5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EC2E930E1E3D0C0E00E089D5 /* Prelude-UIKit-iOSTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Prelude-UIKit-iOSTests.xctest";
-			remoteRef = EC2E930D1E3D0C0E00E089D5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EC2E93101E3D0C0E00E089D5 /* Prelude_UIKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Prelude_UIKit.framework;
-			remoteRef = EC2E930F1E3D0C0E00E089D5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EC2E93121E3D0C0E00E089D5 /* Prelude-UIKit-tvOSTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Prelude-UIKit-tvOSTests.xctest";
-			remoteRef = EC2E93111E3D0C0E00E089D5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EC84658A1E3D0DDE004FD624 /* Runes.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Runes.framework;
-			remoteRef = EC8465891E3D0DDE004FD624 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EC84658C1E3D0DDE004FD624 /* Runes.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Runes.framework;
-			remoteRef = EC84658B1E3D0DDE004FD624 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EC84658E1E3D0DDE004FD624 /* Runes.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Runes.framework;
-			remoteRef = EC84658D1E3D0DDE004FD624 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EC8465901E3D0DDE004FD624 /* Runes-iOS Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Runes-iOS Tests.xctest";
-			remoteRef = EC84658F1E3D0DDE004FD624 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EC8465921E3D0DDE004FD624 /* Runes-Mac Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Runes-Mac Tests.xctest";
-			remoteRef = EC8465911E3D0DDE004FD624 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EC8465941E3D0DDE004FD624 /* Runes-tvOS Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Runes-tvOS Tests.xctest";
-			remoteRef = EC8465931E3D0DDE004FD624 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EC8465961E3D0DDE004FD624 /* Runes.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Runes.framework;
-			remoteRef = EC8465951E3D0DDE004FD624 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		EC1A672C1E3CE2C0009E5934 /* Resources */ = {
@@ -858,6 +278,84 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		387E1A3997542979463703A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuizWorldAPI/Pods-QuizWorldAPI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5406626E9A94989F8826298B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8B678B8AAE1D7E20450F9941 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuizWorldAPITests/Pods-QuizWorldAPITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A45D8DCC229D97743E2216B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E4836FC3D33F5432CDDC4F49 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuizWorldAPITests/Pods-QuizWorldAPITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EC1A672A1E3CE2C0009E5934 /* Sources */ = {
@@ -889,40 +387,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EC8465A41E3D1B44004FD624 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ReactiveExtensions-TestHelpers-iOS";
-			targetProxy = EC8465A31E3D1B44004FD624 /* PBXContainerItemProxy */;
-		};
 		EC8465A91E3D1C20004FD624 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EC1A672D1E3CE2C0009E5934 /* QuizWorldAPI */;
 			targetProxy = EC8465A81E3D1C20004FD624 /* PBXContainerItemProxy */;
-		};
-		ECD69B351E3D21E400C4F5C8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Runes-iOS";
-			targetProxy = ECD69B341E3D21E400C4F5C8 /* PBXContainerItemProxy */;
-		};
-		ECD69B371E3D21E800C4F5C8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ReactiveExtensions-iOS";
-			targetProxy = ECD69B361E3D21E800C4F5C8 /* PBXContainerItemProxy */;
-		};
-		ECD69B391E3D21EF00C4F5C8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Curry-iOS";
-			targetProxy = ECD69B381E3D21EF00C4F5C8 /* PBXContainerItemProxy */;
-		};
-		ECD69B3B1E3D21F400C4F5C8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Argo-iOS";
-			targetProxy = ECD69B3A1E3D21F400C4F5C8 /* PBXContainerItemProxy */;
-		};
-		ECD69B3D1E3D21FA00C4F5C8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Prelude-iOS";
-			targetProxy = ECD69B3C1E3D21FA00C4F5C8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1020,6 +488,7 @@
 		};
 		EC1A674C1E3CE2C0009E5934 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 814D8B887BCF138BDEC20FD6 /* Pods-QuizWorldAPI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEFINES_MODULE = YES;
@@ -1038,6 +507,7 @@
 		};
 		EC1A674D1E3CE2C0009E5934 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC4B19891EE4249A9506938E /* Pods-QuizWorldAPI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEFINES_MODULE = YES;
@@ -1056,6 +526,7 @@
 		};
 		EC1A674F1E3CE2C0009E5934 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 411F3FDE74756B3BFE45B01D /* Pods-QuizWorldAPITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = "";
@@ -1070,6 +541,7 @@
 		};
 		EC1A67501E3CE2C0009E5934 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89F7002C7E8A139C7E66BB0A /* Pods-QuizWorldAPITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = "";
